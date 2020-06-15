@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>ThePhoneEx.com Coming Soon</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="This is site of The PhoneEx and contains some of the relevant work and projects.">
-	<meta name="keywords" content="PhoneEx, Phones, Buy, sell, Bid, iphone, galaxy">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="PhoneEx, Phones, Buy, sell, Bid, galaxy">
     <meta name="robots" content="index, follow">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Mobile E-Commerce Done Better - MOBILE E-COMMERCE APP FOR BUYERS & SELLERS">
+    <meta name="author" content="PhoneEx">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="PhoneEx - Mobile Mobile E-Commerce Done Better" /> <!-- website name -->
+	<meta property="og:site" content="https://www.ThePhoneEx.com" /> <!-- website link -->
+	<meta property="og:title" content="The Phone Ex"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="Mobile Mobile E-Commerce Done Better" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="https://www.ThePhoneEx.com/images/400dpiLogo.jpg" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="https://www.ThePhoneEx.com" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>PhoneEx - Mobile Mobile E-Commerce Done Better</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+    <!--===============================================================================================-->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2914412-16"></script>
 <script>
@@ -50,9 +61,8 @@
   src="https://www.facebook.com/tr?id=872582059847743&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-
-<!-- For Form -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- For the form  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
 
@@ -74,7 +84,7 @@
                         'phone':phone,
                         'email': email,
                         'desc': desc,
-                        'wsource': "www.thephoneex.com - ContactForm"
+                        'wsource': "www.ThephoneEx.com - ContactForm"
                     }),
                     success: function(res){
                         $('#form-response').text('Thank You Message Sent.');
@@ -88,83 +98,771 @@
 
         });
     </script> 
-    <style>.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-</style>
-  <!--===============================================================================================-->  
 </head>
-<body>
-	
-			
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+    
 
-	<div class="flex-w flex-str size1 overlay1">
-		<div class="flex-w flex-col-sb wsize1 bg0 p-l-65 p-t-37 p-b-50 p-r-80 respon1">
-			<div class="wrappic1">
-				<a href="#">
-					<img src="images/icons/logo.png" alt="IMG">
-				</a>
-			</div>		
-	
-			<div class="w-full flex-c-m p-t-80 p-b-90">
-				<div class="wsize2">
-					<h3 class="l1-txt1 p-b-34 respon3">
-						Coming Soon
-					</h3>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">PhoneEx</a> -->
 
-					<p class="m2-txt1 p-b-46">
-						Put your email in for updates
-					</p>
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a> 
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
 
-					<div class="form-style-2">
- 					<div class="form-style-2-heading">Provide your information</div>
-	
-					<input type="text" id="email" placeholder="Enter email here   *" class="form-control" /><span class="required"><class="input-field"><br/><br/>
-					
-					<button id="submit" class="btn btn-lg">Submit</button>
-					</form>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#features">THE APP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#preview">PREVIEW</a>
+                </li>
+
+                <!-- Dropdown Menu -->          
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="#details" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DIRECTIONS</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#details"><span class="item-text">FOR BUYERS</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="#details"><span class="item-text">FOR SELLERS</span></a>
+                    </div>
+                </li>
+                <!-- end of dropdown menu -->
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+            <span class="nav-item social-icons">
+                <span class="fa-stack">
+                    <a href="#your-link">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-facebook-f fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="#your-link">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-twitter fa-stack-1x"></i>
+                    </a>
+                </span>
+            </span>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h1>MOBILE E-COMMERCE APP <br>FOR <span id="js-rotating">BUYERS, SELLERS</span></h1>
+                            <p class="p-large">PhoneEx is the future of wholesale mobile e-commerce. Download it today!</p>
+                            <a class="btn-solid-lg page-scroll" href="waitlist.html"><i class="fab fa-apple"></i>APP STORE</a>
+                            <a class="btn-solid-lg page-scroll" href="waitlist.html"><i class="fab fa-google-play"></i>PLAY STORE</a>
+                            <a class="btn-solid-lg page-scroll" href="waitlist.html"><i class="fa fa-desktop"></i>  WEBLINK </a>
+                        </div>
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <img class="img-fluid" src="images/header-iphone.png" alt="alternative">
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+    
+
+    <!-- Features -->
+    <div id="features" class="tabs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>What is PhoneEx?</h2>
+                    <div class="p-heading p-large">PhoneEx was designed based on input from wholesale mobile buyers and sellers to be the most advanced easy to use app to buy and sell  mobile phones.</div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+
+                <!-- Tabs Links -->
+                <ul class="nav nav-tabs" id="PhoneExTabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="fas fa-broadcast-tower"></i>THE APP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-mobile-alt"></i>BUYING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false"><i class="fas fa-chart-line"></i>SELLING</a>
+                    </li>
+                </ul>
+                <!-- end of tabs links -->
+
+
+                <!-- Tabs Content-->
+                <div class="tab-content" id="PhoneExTabsContent">
+                    
+                    <!-- Tab -->
+                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+                        <div class="container">
+                            <div class="row">
+                                
+                                <!-- Icon Cards Pane -->
+                                <div class="col-lg-4">
+                                    <div class="card left-pane first">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">The Phone Ex App</h4>
+                                                <p>One stop place to buy / sell wholesale mobile phones
+</p>
+                                            </div>
+                                            <div class="card-icon2">
+                                                <i class="far fa-compass"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card left-pane">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">A Marriage Made in Heaven</h4>
+                                                <p>The PhoneEx App is the new way of marrying local phone dealers with large distributors. 
+</p>
+                                            </div>
+                                            <div class="card-icon2">
+                                                <i class="far fa-file-code"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card left-pane">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Happy Buyers</h4>
+                                                <p>Local phone dealers can buy equipment they need at the right price.  </p>
+                                            </div>
+                                            <div class="card-icon2">
+                                                <i class="far fa-gem"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of icon cards pane -->
+
+                                <!-- Image Pane -->
+                                <div class="col-lg-4">
+                                    <img class="img-fluid" src="images/features-iphone-1.png" alt="alternative">
+                                </div>
+                                <!-- end of image pane -->
+                                
+                                <!-- Icon Cards Pane -->
+                                <div class="col-lg-4">
+                                    <div class="card right-pane first">
+                                        <div class="card-body">
+                                            <div class="card-icon2">
+                                                <i class="far fa-calendar-check"></i>
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Successful Sellers</h4>
+                                                <p>The large phone distributors can sell their equipment at much greater margins with their payments guaranteed</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card right-pane">
+                                        <div class="card-body">
+                                            <div class="card-icon2">
+                                                <i class="far fa-bookmark"></i>
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Painless and Intuitive </h4>
+                                                <p>The PhoneEx App is the middleman in the transaction which makes buying wholesale cellular phone and accessories as easy as pressing a button. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card right-pane">
+                                        <div class="card-body">
+                                            <div class="card-icon2">
+                                                <i class="fas fa-cube"></i>
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Excellent Foundation</h4>
+                                                <p>Use a solid foundation for your mobile phone needs. Try the PhoneEx mobile app today</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of icon cards pane -->
+
+                            </div> <!-- end of row -->
+                        </div> <!-- end of container -->
+                    </div> <!-- end of tab-pane -->
+                    <!-- end of tab -->
+
+                    <!-- Tab -->
+                    <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+                        <div class="container">
+                            <div class="row">
+
+                                <!-- Image Pane -->
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="images/features-iphone-2.png" alt="alternative">
+                                </div>
+                                <!-- end of image pane -->
+                                
+                                <!-- Text And Icon Cards Area -->
+                                <div class="col-md-8">
+                                    <div class="text-area">
+                                        <h3>Buying on phoneEx is as Easy As 1, 2, 3 !</h3>
+                                        <p>With an easy and intuitive app, buyers get the phones they need from reputable distributors  at the right price and guaranteed.</p>
+                                    </div> <!-- end of text-area -->
+                                    
+                                    <div class="icon-cards-area">
+                                            <div class="card">
+                                                <div class="card-icon">
+                                                    <i class="fas fa-cube"></i>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Step One</h4>
+                                                    <p><b>Need Equipment?</b> - Make A Request. Simply click the model you need along with the relevant criteria and Press "Send".  Your Request will go out to a network of vetted distributers who will send you back quotes. </p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-icon">
+                                                    <i class="far fa-bookmark"></i>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Step Two</h4>
+                                                    <p>You will get offers on your request.  Simply click to accept the offer and your payment method will automatically be charged.  You can accept as many offers as you like.</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-icon">
+                                                    <i class="far fa-calendar-check"></i>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Step Three </h4>
+                                                    <p>You will get an alert once the Seller ships.  </p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-icon">
+                                                    <i class="far fa-file-code"></i>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Receive Your Merchandise</h4>
+                                                    <p>Congratulations! You have received your merchandise.  Probelm? - No worries! You have 2 days to return the merchandise.  After that, it is backed by our vetted Sellers Warranty </p>
+                                                </div>
+                                            </div>
+                                    </div> <!-- end of icon cards area -->
+                                </div> <!-- end of col-md-8 -->
+                                <!-- end of text and icon cards area -->
+
+                            </div> <!-- end of row -->
+                        </div> <!-- end of container -->
+                    </div> <!-- end of tab-pane -->
+                    <!-- end of tab -->
+
+                    <!-- Tab -->
+                    <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
+                        <div class="container">
+                            <div class="row">
+
+                                <!-- Text And Icon Cards Area -->
+                                <div class="col-md-8">
+                                    <div class="icon-cards-area">
+                                        <div class="card">
+                                            <div class="card-icon3">
+                                                <i class="far fa-calendar-check"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Step One</h4>
+                                                <p>Look at your Home Screen to see the many requests from the buyers.  Have inventory?  Make an offer </p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon3">
+                                                <i class="far fa-file-code"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Step Two</h4>
+                                                <p>The Buyer accepts your offer.  Time to Ship</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon3">
+                                                <i class="fas fa-cube"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Step Three</h4>
+                                                <p>The buyer receives your merchandise and accepts it.  That's it! You get paid.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon3">
+                                                <i class="far fa-bookmark"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">It's That Easy</h4>
+                                                <p>Gone will be the days of a few points of selling hardware. Make 100% more margin. Have extensive outreach selling to a variety of customers minimizing risk .</p>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end of icon cards area -->
+                                    
+                                    <div class="text-area">
+                                        <h3>Selling on phoneEx is as Easy As 1, 2, 3 !</h3>
+                                        <p>With an easy and intuitive app, Sellers sell inventory at high margins with no paperwork, payment guaranteed.</p>
+                                    </div> <!-- end of text-area -->
+                                </div> <!-- end of col-md-8 -->
+                                <!-- end of text and icon cards area -->
+
+                                <!-- Image Pane -->
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="images/features-iphone-3.png" alt="alternative">
+                                </div>
+                                <!-- end of image pane -->
+                                    
+                            </div> <!-- end of row -->
+                        </div> <!-- end of container -->
+                    </div><!-- end of tab-pane -->
+                    <!-- end of tab -->
+
+                </div> <!-- end of tab-content -->
+                <!-- end of tabs content -->
+
+            </div> <!-- end of row --> 
+        </div> <!-- end of container --> 
+    </div> <!-- end of tabs -->
+    <!-- end of features -->
+
+
+    <!-- Video -->
+    <div id="preview" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>PREVIEW</h2>
+                    <div class="p-heading p-large">Watch The Video to see PhoneEx in Action!</div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Video Preview -->
+                    <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=CwQef9_q8fo" data-effect="fadeIn">
+                                <img class="img-fluid" src="images/video-frame.jpg" alt="alternative">
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span>
+                            </a>
+                        </div> <!-- end of video-wrapper -->
+                    </div> <!-- end of image-container -->
+                    <!-- end of video preview -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of video -->
+
+
+    <!-- Details 1 -->
+    <div id="details" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/features-iphone-2.png" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h3>BUYERS</h3>
+                        <p>With an easy and intuitive app, buyers get the phones they need from reputable distributors at the right price and guaranteed.</p>
+                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">DIRECTIONS</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of details 1 -->
+
+
+    <!-- Details 2 -->
+    <div class="basic-3">
+        <div class="second">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h3>SELLERS</h3>
+                            <p>With an easy and intuitive app, Sellers sell inventory at high margins with no paperwork, payment guaranteed.</p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-2">DIRECTIONS</a>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="images/features-iphone-3.png" alt="alternative">
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of second -->
+    </div> <!-- end of basic-3 -->    
+    <!-- end of details 2 -->
+
+
+    <!-- Details Lightboxes -->
+	<!-- Lightbox -->
+	<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+		<div class="row">
+			<button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+			<div class="col-lg-6">
+				<img class="img-fluid" src="images/screenshot-6.png" alt="alternative">
+			</div>
+			<div class="col-lg-6">
+				<h3>Buyer Directions</h3>
+				<hr>
+                <p>Using PhoneEx is as easy as 1, 2, 3</p>
+                <h4>Step 1</h4>
+                <p>What equipment do you need? Go to the "Make A Request" Screen</p>
+                <p>When you get to the "Make A Request" screen, simply pick all of your criteria for what you need and click "Send Request". Your Request will now go to our many suppliers who will send you offers for your request. You may get 1 offer back you may get 10 offers back. So now you are ready for the next step!</p>
+				<h4>Step 2</h4>
+                <p>Now we go back to your "Home Screen". This is where you will see all of your current offers. You can click on any offer and see the detail. </p>
+                <p>When you are in the detail screen you can "Accept the Offer," "Reject the Offer," or "Do Nothing."  You can wait to see if you receive more offers to your liking, but just be mindful of the expiration time as the offer will disappear. When you accept the offer, your credit card on file (or other payment that you chose) will be charged.  The Offer now becomes an Order and will be shipped to you.</p>
+                <h4>Step 3</h4>
+                <p>You will get an alert once the Seller ships the item. This Step brings you to the In-Process screen where you will be able to see items that were purchased that haven't been received yet. You can check to see if the item had shipped and also see the tracking number</p>
+                <p>Once you receive the package, you need to click on the order to get to the detail.&nbsp; Here you will be able to accept the shipment and rate the seller. And in the small possibility that the items are not up to your standards you may hit the Return button. Please be aware that you have 48 hours to Request a Return (After that standard Seller Warranties are in effect) If you do nothing here, we will automatically accept the shipment for you after 48 hours of receiving. - That's It! Happy Buying</p>
+				<a class="btn-solid-reg" href="https://app.thephoneex.com/#/Buyer_Ins.html" target="_blank">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#details">BACK</a> 
+			</div>
+		</div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+    
+    <!-- Lightbox -->
+    <div id="details-lightbox-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+		<div class="row">
+			<button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+			<div class="col-lg-6">
+				<img class="img-fluid" src="images/screenshot-6.png" alt="alternative">
+			</div>
+			<div class="col-lg-6">
+				<h3>Seller Directions</h3>
+				<hr>
+                <p>Using PhoneEx is as easy as 1, 2, 3</p>
+                <h4>Step 1</h4>
+                <p>The first place where you will go is actually your Home Screen. Here you will see many Requests from different Buyers.</p>
+                <p> If you have inventory and would like to make an offer click on it to get to the detail. Once you click on the detail, you need to put the Grade of the devices and the total price for all of the units including shipping.  Remember once you hit the Place Offer button you are committing that inventory in case the buyer accepts your offer. If the buyer accepts your offer, you will get an alert and now its time to go to Step 2</p>
+				<h4>Step 2</h4>
+                <p>The Buyer has accepted your Offer.  This Step takes you to the Accepted Offers Screen where you will click on the order to ship it.  Once you click, you will find all of the pertinent information for shipping the order.  Once you have packed  and shipped, you will need to enter the Shipped By and the Tracking Number. </p>
+                <p>The Buyer will get an alert saying you shipped. Once they receive the package and accept it you will be alerted. Now it's time for Step 3</p>
+                <h4>Step 3</h4>
+                <p>At this Step you will be put in the In-Process Screen where you can see all of your shipments before they are accepted by the buyer. You can click on any one of them to see the details.  Once they are accepted you will get an alert that they received it and accepted. Once they have accepted, we will begin the process of moving the proceeds to your account.  That's It! Happy Selling</p>
+				<a class="btn-solid-reg" href="https://app.thephoneex.com/#/Buyer_Ins.html" target="_blank">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#details">BACK</a> 
+			</div>
+			</div>
+		</div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+    <!-- end of details lightboxes -->
+
+
+    <!-- Screenshots -->
+    <div class="slider-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Image Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container image-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/screenshot-1.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/screenshot-1.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/screenshot-2.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/screenshot-2.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/screenshot-3.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/screenshot-3.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/screenshot-4.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/screenshot-4.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/screenshot-5.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/screenshot-5.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/screenshot-6.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/screenshot-6.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/screenshot-7.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/screenshot-7.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/screenshot-8.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/screenshot-8.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/screenshot-9.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/screenshot-9.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/screenshot-10.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/screenshot-10.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+                                
+                            </div> <!-- end of swiper-wrapper -->
+
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of image slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-2 -->
+    <!-- end of screenshots -->
+
+
+    <!-- Download -->
+    <div class="basic-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <h2>Download <span class="blue">PhoneEx</span></h2>
+                        <p class="p-large">Target the right customers for your business with the help of PhoneEx's patented technology and increase conversion figures in less than 2 weeks</p>
+                        <a class="btn-solid-lg" href="waitlist.html"><i class="fab fa-apple"></i>APP STORE</a>
+                        <a class="btn-solid-lg" href="waitlist.html"><i class="fab fa-google-play"></i>PLAY STORE</a>
+                        <a class="btn-solid-lg page-scroll" href="waitlist.html"><i class="fa fa-desktop"></i> WEB  LINK </a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/download.png" alt="alternative">
+                    </div> <!-- end of img-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-4 -->
+    <!-- end of download -->
+
+
+
+    <!-- Contact -->
+    <div id="contact" class="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>CONTACT</h2>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="address">Don't hesitate to give us a call or just use the contact form below</li>
+                        <li><i class="fas fa-map-marker-alt"></i>1856 N Nob Hill Road, suite 450, Plantation, FL US</li>
+                        <li><i class="fas fa-phone"></i><a class="blue" href="tel:003024630820">+1 954 591-8613</a></li>
+                        <li><i class="fas fa-envelope"></i><a class="blue" href="mailto:office@PhoneEx.com">info@PhoneEx.com</a></li>
+                    </ul>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    
+                    <!-- Contact Form -->
+                    <form id="contactForm" data-toggle="validator" data-focus="false">
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="name" required>
+                            <label class="label-control" for="cname">Name</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="phone" required>
+                            <label class="label-control" for="cname">Phone Number</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="email" required>
+                            <label class="label-control" for="cemail">Email</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" id="desc" required></textarea>
+                            <label class="label-control" for="cmessage">Your message</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I have read and agree to PhoneEx's stated conditions in <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <button id="submit" button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                    <!-- end of contact form -->
 					<div id="form-response"></div>
-					<br/>
-					</div>  
-				</div>
-			</div>
-			
-			
-		</div>
-			
-
-		<div class="wsize1 simpleslide100-parent respon2">
-			<!--  -->
-			<div class="simpleslide100">
-				<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg');"></div>
-				<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
-				<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg03.jpg');"></div>
-			</div>
-		</div>
-	</div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form -->
+    <!-- end of contact -->
 
 
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-col">
+                        <h4>About PhoneEx</h4>
+                        <p>Mobile E-Commerce Done Better.  PhoneEx was designed based on input from wholesale mobile buyers and sellers to be the most advanced easy to use app to buy and sell mobile phones.</p>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-4">
+                    <div class="footer-col middle">
+                        <h4>Important Links</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Read our <a class="turquoise" href="terms-conditions.html">Terms & Conditions</a>, <a class="turquoise" href="privacy-policy.html">Privacy Policy</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-4">
+                    <div class="footer-col last">
+                        <h4>Social Media</h4>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div> 
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
 
-	
 
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2020 <a href="https://www.thePhoneEx.com">PhoneEx</a> - All rights reserved</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 </html>
